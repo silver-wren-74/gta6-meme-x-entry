@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!--
+    gta6-meme-x-01 entry artwork: "Patient Ghost"
+    Joke: a kid and the make.fun ghost play GTA V in 2013; thirteen years
+    later the same couch, the same ghost, GTA VI at last. The gamer grew
+    up. The ghost did not age a day. The ghost group is defined once and
+    used identically in both panels on purpose: same size, same pose.
+  -->
+  <defs>
+    <linearGradient id="wallDay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9bb"/>
+      <stop offset="1" stop-color="#ffcf8f"/>
+    </linearGradient>
+    <linearGradient id="wallNight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232a52"/>
+      <stop offset="1" stop-color="#150f33"/>
+    </linearGradient>
+    <linearGradient id="skyDay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="skyNight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b0a4a"/>
+      <stop offset="0.55" stop-color="#8b1d63"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+
+    <!-- A four-pointed sparkle, the ghost's eye shape -->
+    <path id="sparkle" d="M0,-15 C2,-4 4,-2 15,0 C4,2 2,4 0,15 C-2,4 -4,2 -15,0 C-4,-2 -2,-4 0,-15 Z"/>
+    <!-- A plain five-pointed star for the coin -->
+    <path id="star" d="M0,-11 L2.6,-3.5 L10.5,-3.4 L4.2,1.4 L6.5,9 L0,4.6 L-6.5,9 L-4.2,1.4 L-10.5,-3.4 L-2.6,-3.5 Z"/>
+
+    <!-- The make.fun ghost: white body, thick black outline, two black
+         sparkle eyes, one round little hand, holding a magenta coin
+         with a white star. Drawn once; reused unchanged in 2026. -->
+    <g id="ghost">
+      <path d="M14,138 L14,58 C14,20 34,6 66,6 C98,6 118,20 118,58 L118,138
+               L103,124 L88,138 L73,124 L58,138 L43,124 L28,138 Z"
+            fill="#ffffff" stroke="#111111" stroke-width="7" stroke-linejoin="round"/>
+      <use href="#sparkle" transform="translate(44,58)" fill="#111111"/>
+      <use href="#sparkle" transform="translate(88,58)" fill="#111111"/>
+      <circle cx="125" cy="88" r="12" fill="#ffffff" stroke="#111111" stroke-width="6"/>
+      <g transform="translate(28,104)">
+        <circle r="21" fill="#ec008c" stroke="#111111" stroke-width="5"/>
+        <use href="#star" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <!-- A simple palm silhouette for the TV screens -->
+    <g id="palm" fill="#134e4a">
+      <path d="M0,60 C2,34 4,18 10,2 L15,4 C10,20 8,36 8,60 Z"/>
+      <path d="M11,4 C-6,-6 -20,-6 -30,0 C-18,2 -8,6 6,12 Z"/>
+      <path d="M11,4 C24,-8 38,-10 48,-6 C36,-2 26,4 14,12 Z"/>
+      <path d="M11,4 C2,-12 -8,-18 -18,-20 C-10,-10 -2,-2 8,10 Z"/>
+      <path d="M11,4 C20,-12 30,-18 40,-20 C32,-10 24,-2 14,10 Z"/>
+    </g>
+  </defs>
+
+  <!-- Canvas -->
+  <rect x="0" y="0" width="1200" height="800" fill="#0b0b10"/>
+
+  <!-- ================= LEFT PANEL : 2013 ================= -->
+  <g>
+    <rect x="16" y="16" width="568" height="632" rx="18" fill="url(#wallDay)"/>
+    <rect x="16" y="556" width="568" height="92" rx="18" fill="#d97706" opacity="0.35"/>
+    <text x="48" y="94" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="900" fill="#7c2d12">2013</text>
+    <text x="50" y="126" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#9a3412">GTA V launch day</text>
+
+    <!-- TV with GTA V -->
+    <rect x="56" y="146" width="300" height="182" rx="10" fill="#20242b"/>
+    <rect x="68" y="158" width="276" height="158" fill="url(#skyDay)"/>
+    <circle cx="290" cy="196" r="24" fill="#fff7cc"/>
+    <use href="#palm" transform="translate(96,236) scale(1.1)"/>
+    <use href="#palm" transform="translate(268,246) scale(-0.9,0.9)"/>
+    <text x="206" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="900" fill="#ffffff" stroke="#134e4a" stroke-width="1.5">GTA V</text>
+    <rect x="150" y="328" width="112" height="12" fill="#20242b"/>
+    <rect x="118" y="340" width="176" height="9" rx="4" fill="#20242b"/>
+
+    <!-- Framed Vice City poster -->
+    <g>
+      <rect x="404" y="146" width="128" height="96" rx="6" fill="#fdf6e3" stroke="#7c2d12" stroke-width="4"/>
+      <circle cx="468" cy="182" r="17" fill="#fb923c"/>
+      <use href="#palm" transform="translate(424,196) scale(0.62)"/>
+      <text x="468" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="900" fill="#7c2d12">VICE CITY</text>
+    </g>
+
+    <!-- Couch -->
+    <rect x="56" y="398" width="470" height="94" rx="24" fill="#ea580c"/>
+    <rect x="56" y="478" width="470" height="76" rx="18" fill="#c2410c"/>
+    <rect x="42" y="428" width="38" height="124" rx="17" fill="#9a3412"/>
+    <rect x="502" y="428" width="38" height="124" rx="17" fill="#9a3412"/>
+
+    <!-- Kid gamer, 2013 -->
+    <g>
+      <rect x="160" y="470" width="62" height="28" rx="6" fill="#1e3a8a"/>
+      <rect x="166" y="496" width="17" height="46" fill="#f6c390"/>
+      <rect x="199" y="496" width="17" height="46" fill="#f6c390"/>
+      <rect x="160" y="538" width="28" height="12" rx="5" fill="#f8fafc"/>
+      <rect x="194" y="538" width="28" height="12" rx="5" fill="#f8fafc"/>
+      <rect x="156" y="388" width="70" height="90" rx="15" fill="#2563eb"/>
+      <path d="M168,404 L192,458" stroke="#f6c390" stroke-width="13" stroke-linecap="round"/>
+      <path d="M216,404 L204,458" stroke="#f6c390" stroke-width="13" stroke-linecap="round"/>
+      <rect x="176" y="450" width="50" height="27" rx="13" fill="#1f2937"/>
+      <circle cx="189" cy="463" r="3.4" fill="#f8fafc"/>
+      <circle cx="213" cy="463" r="3.4" fill="#f8fafc"/>
+      <circle cx="191" cy="352" r="28" fill="#f6c390"/>
+      <path d="M163,350 A28,28 0 0 1 217,350 Z" fill="#dc2626"/>
+      <rect x="140" y="338" width="24" height="9" rx="4.5" fill="#991b1b"/>
+      <circle cx="181" cy="354" r="3" fill="#111111"/>
+      <circle cx="201" cy="354" r="3" fill="#111111"/>
+      <path d="M183,364 Q191,370 199,364" stroke="#111111" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- The ghost in 2013: young, waving, coin in hand -->
+    <ellipse cx="430" cy="512" rx="62" ry="9" fill="#7c2d12" opacity="0.25"/>
+    <use href="#ghost" transform="translate(364,366)"/>
+    <use href="#sparkle" transform="translate(352,352) scale(0.55)" fill="#b45309"/>
+    <use href="#sparkle" transform="translate(516,330) scale(0.45)" fill="#b45309"/>
+  </g>
+
+  <!-- ================= RIGHT PANEL : 2026 ================= -->
+  <g>
+    <rect x="616" y="16" width="568" height="632" rx="18" fill="url(#wallNight)"/>
+    <rect x="616" y="556" width="568" height="92" rx="18" fill="#0ea5e9" opacity="0.14"/>
+    <text x="648" y="94" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="900" fill="#f0abfc">2026</text>
+    <text x="650" y="126" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#a5f3fc">GTA VI launch week</text>
+
+    <!-- Launch-week calendar -->
+    <g>
+      <rect x="644" y="146" width="112" height="100" rx="8" fill="#f8fafc"/>
+      <rect x="644" y="146" width="112" height="26" rx="8" fill="#dc2626"/>
+      <text x="700" y="165" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="900" fill="#ffffff">NOV 2026</text>
+      <text x="700" y="216" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#111111">19</text>
+      <text x="700" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900" fill="#dc2626">GTA 6 DAY</text>
+    </g>
+
+    <!-- Neon make.fun sign, part of the room -->
+    <g>
+      <rect x="906" y="118" width="238" height="66" rx="15" fill="none" stroke="#ff2ea6" stroke-width="11" opacity="0.30"/>
+      <rect x="906" y="118" width="238" height="66" rx="15" fill="none" stroke="#ff2ea6" stroke-width="4"/>
+      <text x="1025" y="164" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="41" font-weight="800" fill="#ffd7f2">make.fun</text>
+    </g>
+
+    <!-- TV with GTA VI over Leonida at night -->
+    <g transform="translate(26,0)">
+    <rect x="800" y="222" width="330" height="198" rx="10" fill="#0b0e14"/>
+    <rect x="812" y="234" width="306" height="174" fill="url(#skyNight)"/>
+    <circle cx="1072" cy="272" r="19" fill="#fef9c3"/>
+    <rect x="812" y="356" width="306" height="52" fill="#0f172a" opacity="0.85"/>
+    <use href="#palm" transform="translate(838,318) scale(1.15)" fill="#0b0e14"/>
+    <use href="#palm" transform="translate(1052,330) scale(-0.95,0.95)" fill="#0b0e14"/>
+    <text x="965" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="900" fill="#ffffff" stroke="#2b0a4a" stroke-width="1.5">GTA VI</text>
+    <rect x="912" y="420" width="106" height="12" fill="#0b0e14"/>
+    <rect x="884" y="432" width="162" height="9" rx="4" fill="#0b0e14"/>
+    </g>
+
+    <!-- Couch, same couch, older -->
+    <rect x="636" y="398" width="470" height="94" rx="24" fill="#4c1d95"/>
+    <rect x="636" y="478" width="470" height="76" rx="18" fill="#3b1470"/>
+    <rect x="622" y="428" width="38" height="124" rx="17" fill="#2e1065"/>
+    <rect x="1082" y="428" width="38" height="124" rx="17" fill="#2e1065"/>
+
+    <!-- The same gamer, grown up -->
+    <g>
+      <rect x="742" y="470" width="66" height="28" rx="6" fill="#1e40af"/>
+      <rect x="748" y="496" width="18" height="46" fill="#eab892"/>
+      <rect x="782" y="496" width="18" height="46" fill="#eab892"/>
+      <rect x="742" y="538" width="29" height="12" rx="5" fill="#111827"/>
+      <rect x="776" y="538" width="29" height="12" rx="5" fill="#111827"/>
+      <rect x="736" y="382" width="78" height="96" rx="16" fill="#0d9488"/>
+      <path d="M750,400 L772,456" stroke="#eab892" stroke-width="14" stroke-linecap="round"/>
+      <path d="M800,400 L788,456" stroke="#eab892" stroke-width="14" stroke-linecap="round"/>
+      <rect x="756" y="448" width="52" height="28" rx="14" fill="#1f2937"/>
+      <circle cx="770" cy="462" r="3.4" fill="#f8fafc"/>
+      <circle cx="794" cy="462" r="3.4" fill="#f8fafc"/>
+      <circle cx="775" cy="344" r="30" fill="#eab892"/>
+      <path d="M745,340 A30,30 0 0 1 805,340 L805,332 A30,30 0 0 0 745,332 Z" fill="#44403c"/>
+      <path d="M752,322 A30,30 0 0 1 776,314 L772,326 A22,22 0 0 0 758,330 Z" fill="#e7e5e4"/>
+      <circle cx="765" cy="346" r="3.2" fill="#111111"/>
+      <circle cx="786" cy="346" r="3.2" fill="#111111"/>
+      <path d="M766,357 Q775,363 785,357" stroke="#111111" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- The ghost in 2026: identical. It did not age a day. -->
+    <ellipse cx="1010" cy="512" rx="62" ry="9" fill="#000000" opacity="0.35"/>
+    <use href="#ghost" transform="translate(944,366)"/>
+    <use href="#sparkle" transform="translate(932,352) scale(0.55)" fill="#67e8f9"/>
+    <use href="#sparkle" transform="translate(1096,330) scale(0.45)" fill="#67e8f9"/>
+  </g>
+
+  <!-- Divider arrow, drawn last so it sits on top of both panels -->
+  <circle cx="600" cy="332" r="27" fill="#ffffff" stroke="#111111" stroke-width="5"/>
+  <text x="600" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900" fill="#111111">→</text>
+
+  <!-- ================= CAPTION ================= -->
+  <rect x="16" y="664" width="1168" height="118" rx="18" fill="#000000"/>
+  <text x="600" y="740" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="900" fill="#ffffff"><tspan fill="#fbbf24">13 years later…</tspan> one of us didn't age a day.</text>
+</svg>
